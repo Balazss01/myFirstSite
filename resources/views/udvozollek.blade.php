@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
+    <title>Document</title>
 </head>
 <body>
-    Kapcsolat oldal
+    <div>Hi, <?php echo $name; ?></div>
+    <p>Remélem jól vgy {{$name}}</p>
+    <p> {{$kor}} éves vagy.</p>
 </body>
 </html>
